@@ -5,7 +5,7 @@ $(document).ready(function () {
             // console.log("Enter Key Pressed");
             var input = $(this);
             var username = input.val();
-            console.log('username was: ' + username);
+            // console.log('username was: ' + username);
             showUser(getGitHubInfo(username));
         }
     });
